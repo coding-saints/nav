@@ -19,7 +19,6 @@
     font-size: 20px;
     background: rgba(0,0,0,0.2);
     padding:10px 100px;
-    display: inline-block;
     margin:20px;
     border-radius:5px;
   }
@@ -34,7 +33,7 @@
 
   .cool > li {
     position: relative;
-    display:flex;
+    display: flex;
     justify-content: center;
   }
 
@@ -90,7 +89,6 @@
 
   .bio {
     min-width:500px;
-    display:flex;
     justify-content: center;
     align-items: center;
     line-height: 1.7;
@@ -98,7 +96,6 @@
 
   .bio img {
       width: 25%;
-    float:left;
     margin-right:20px;
   }
 
@@ -126,58 +123,7 @@
     margin-bottom: 10px;
   }
 
-
-  /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
   .button[href*=twitter] { background: #019FE9; }
   .button[href*=facebook] { background: #3B5998; }
   .button[href*=courses] { background: #ffc600; }
 
-    body {
-      margin: 0;
-    }
-    
-    *,
-    *:before,
-    *:after {
-      box-sizing: inherit;
-    }
-    
-    h1 {
-      margin-top: 0;
-    }
-    
-    .site-wrap {
-      max-width: 700px;
-      margin: 100px auto;
-      background: white;
-      padding: 40px;
-      text-align: justify;
-    }
-    
-    .align-left {
-      float: left;
-      margin-right: 20px;
-    }
-    
-    .align-right {
-      float: right;
-      margin-left: 20px;
-    }
-    
-    .slide-in {
-      opacity: 0;
-      transition: all .5s;
-    }
-    
-    .align-left.slide-in {
-      transform: translateX(-30%) scale(0.95);
-    }
-    
-    .align-right.slide-in {
-      transform: translateX(30%) scale(0.95);
-    }
-    
-    .slide-in.active {
-      opacity: 1;
-      transform: translateX(0%) scale(1);
-    }
